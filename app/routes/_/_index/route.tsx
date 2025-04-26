@@ -39,6 +39,7 @@ export default function Index() {
           onClick={() => {
             revalidate();
           }}
+          variant="outline"
         >
           Revalidate
         </Button>
